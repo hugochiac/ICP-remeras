@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "remera cuadrada",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/remera1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "remera infuse",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/remera2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "remera spacewide traveller",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/remera3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "remera monkey makers",
+        "price": 9.99,
+        "image": { "fields": { "file": { "url": "./images/remera4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "remera HGR",
+        "price": 8.99,
+        "image": { "fields": { "file": { "url": "./images/remera5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "remera yahweh yireh",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/remera6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "remera space crane",
+        "price": 11.99,
+        "image": { "fields": { "file": { "url": "./images/remera7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "remera champion",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/remera8.jpeg" } } }
+      }
+    }
+  ]
+}

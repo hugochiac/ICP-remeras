@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>ICP store</title>
+    <script src="https://kit.fontawesome.com/8bdb765884.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---- navbar ---->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fa fa-bars"></i>
+            </span>
+            <img src="./images/logo.svg" alt="Logo tienda">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- fin navbar -->
+
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                el infierno cyberpunk store
+            </h1>
+            <button class="banner-btn">comprar ahora</button>
+        </div>
+    </header>
+    <!-- fin hero -->
+
+    <!---- productos ---->
+    <section class="products">
+        <div class="section-title">
+            <h2>Catálogo</h2>
+        </div>
+        <div class="products-center">
+            <!---- producto individual ---->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/remera1.jpg" alt="Remera cuadrada" class="product-img">
+                    <button class="car-btn" data-id="1">
+                        <i class="fas fa-shopping-cart">+ carrito</i>
+                    </button>
+                </div>
+                <h3>chetita peronista</h3>
+                <h4>$10,99</h4>
+            </article>
+            <!-- fin producto individual -->
+        </div>
+    </section>
+    <!-- fin productos -->
+
+    <!---- carrito ---->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+
+            <h2>tu carrito</h2>
+            <div class="cart-content">
+                <!---- item carrito ---->
+                <!-- will add dynamically later on with JS -->
+                <div class="cart-item">
+                    <img src="./images/remera1.jpg" alt="Remera 1">
+                    <div>
+                        <h4>chetita peronista</h4>
+                        <h5>$10.99</h5>
+                        <span class="remove-item">quitar item</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <!-- fin item carrito -->
+            </div>
+            <div class="cart-footer">
+                <!-- this will also be added dynamically -->
+                <h3>monto total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">limpiar carrito</button>
+            </div>
+        </div>
+    </div>
+    <!-- fin carrito -->
+    <script src="app.js"></script>
+</body>
+
+</html>
